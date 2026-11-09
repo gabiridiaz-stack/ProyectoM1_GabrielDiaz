@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generador de paletas de colores aleatorias de Colorfly Studio.">
+  <title>Colorfly Studio | Generador de paletas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="titulo">Colorfly Studio</h1>
+    <p class="subtitulo">Generá paletas de colores aleatorias con un solo clic.</p>
+  </header>
+
+  <main class="contenedor">
+    <section aria-labelledby="t-opciones" class="panel">
+      <h2 id="t-opciones" class="visualmente-oculto">Opciones de la paleta</h2>
+      <form id="formulario" class="formulario">
+        <fieldset class="grupo">
+          <legend>Tamaño de la paleta</legend>
+          <label class="opcion"><input type="radio" name="tamano" value="6" checked> 6 colores</label>
+          <label class="opcion"><input type="radio" name="tamano" value="8"> 8 colores</label>
+          <label class="opcion"><input type="radio" name="tamano" value="9"> 9 colores</label>
+        </fieldset>
+        <button type="submit" class="boton">Generar paleta</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="t-paleta">
+      <h2 id="t-paleta" class="titulo-seccion">Tu paleta</h2>
+      <p class="ayuda">Hacé clic en un color para copiar su código HEX.</p>
+      <ul id="paleta" class="paleta"></ul>
+    </section>
+
+    <p id="aviso" class="aviso" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="pie">
+    <p>Colorfly Studio &copy; 2026 | Proyecto M1 por Gabriel Diaz</p>
+  </footer>
+</body>
+</html>
