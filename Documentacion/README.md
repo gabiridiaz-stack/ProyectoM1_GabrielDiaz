@@ -1,10 +1,10 @@
-# Colorfly Studio | Generador de paletas
+# Colorace | Generador de paletas
 
 Aplicación web estática e interactiva que genera paletas de colores aleatorias con un solo botón. Proyecto M1 de Henry, hecho por **Gabriel Diaz**.
 
-🔗 **Demo:** https://gabiridiaz-stack.github.io/NOMBRE-DEL-REPOSITORIO/
+🔗 **Demo:** https://gabiridiaz-stack.github.io/ProyectoM1_GabrielDiaz/
 
-![Vista de la aplicación](capturas/paleta.png)
+![Vista de la aplicación](Documentacion/capturas/paleta.png)
 
 ## Funcionalidades
 
@@ -25,8 +25,8 @@ ProyectoM1_GabrielDiaz/
 ├── index.html              (redirige a la app para GitHub Pages)
 ├── Desarrollo/
 │   ├── index.html
-│   ├── css/styles.css
-│   └── js/app.js
+│   ├── styles.css
+│   └── app.js
 └── Documentacion/
     ├── README.md
     ├── uso-de-ia.md
@@ -64,9 +64,3 @@ No requiere instalar nada.
 ## Uso de IA
 
 Ver [uso-de-ia.md](uso-de-ia.md).
-
-## Posibles mejoras
-
-- [ ] Bloquear colores para conservarlos al regenerar.
-- [ ] Guardar paletas en `localStorage`.
-- [ ] Mostrar también el formato RGBA.
