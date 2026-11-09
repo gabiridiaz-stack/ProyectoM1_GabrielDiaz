@@ -49,7 +49,7 @@ corregirlo.
 ```
 Armame un README para este proyecto con: descripción, funcionalidades,
 tecnologías, estructura de carpetas, cómo ejecutarlo, cómo desplegarlo y
-decisiones técnicas. Dejá espacios donde yo deba completar con mis datos.
+decisiones técnicas.
 ```
 
 !Captura del prompt 5(capturas/Prompt-5.png)
