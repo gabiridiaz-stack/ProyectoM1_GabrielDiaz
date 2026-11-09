@@ -4,7 +4,10 @@ Aplicación web estática e interactiva que genera paletas de colores aleatorias
 
 🔗 **Demo:** https://gabiridiaz-stack.github.io/ProyectoM1_GabrielDiaz/
 
-![Vista de la aplicación](Documentacion/capturas/paleta.png)
+![Paleta de 6 colores](capturas/paleta-6-colores.png)
+![Paleta de 8 colores](capturas/paleta-8-colores.png)
+![Paleta de 9 colores](capturas/paleta-9-colores.png)
+![Aviso al copiar un color](capturas/paleta-copiado.png)
 
 ## Funcionalidades
 
@@ -35,7 +38,7 @@ ProyectoM1_GabrielDiaz/
 
 ## Cómo ejecutarla
 
-1. Cloná el repositorio: `git clone URL-DEL-REPOSITORIO`
+1. Cloná el repositorio: `git clone https://github.com/gabiridiaz-stack/ProyectoM1_GabrielDiaz.git`
 2. Abrí `Desarrollo/index.html` en el navegador, o usá la extensión Live Server de VS Code.
 
 No requiere instalar nada.
@@ -49,7 +52,7 @@ No requiere instalar nada.
 ## Decisiones técnicas
 
 - **HSL para generar, HEX para mostrar:** en HSL es fácil controlar la saturación y la luminosidad (valores acotados), así los colores salen vistosos y no apagados. Después se convierten a HEX.
-- **Sin estilos inline en el HTML:** todo el estilo vive en `css/styles.css`. Solo el JavaScript pasa el color de cada muestra mediante variables CSS.
+- **Sin estilos inline en el HTML:** todo el estilo vive en `Desarrollo/styles.css`. Solo el JavaScript pasa el color de cada muestra mediante variables CSS.
 - **Texto legible sobre cualquier color:** se calcula la luminancia del fondo y se elige texto oscuro o blanco según el mayor contraste.
 - **`index.html` en la raíz:** GitHub Pages necesita uno ahí, y redirige a `Desarrollo/`.
 
