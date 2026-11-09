@@ -25,14 +25,14 @@ HTML5 semántico, CSS3 (variables, Grid, Flexbox), JavaScript (DOM y eventos), G
 
 ```
 ProyectoM1_GabrielDiaz/
-├── index.html              (redirige a la app para GitHub Pages)
+├── index.html
+├── uso-de-ia.md
 ├── Desarrollo/
 │   ├── index.html
 │   ├── styles.css
 │   └── app.js
 └── Documentacion/
     ├── README.md
-    ├── uso-de-ia.md
     └── capturas/
 ```
 
