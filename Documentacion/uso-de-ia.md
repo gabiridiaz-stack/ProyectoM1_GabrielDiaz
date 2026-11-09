@@ -1,38 +1,56 @@
 # Uso de la IA
 
-Completá este documento con tus prompts reales y capturas de pantalla de cada resultado (guardalas en `capturas/`).
+## Claude sonnet 5.5
 
-## Herramienta utilizada
-
-[Nombre de la herramienta y versión]
-
-## Prompt 1: [objetivo]
-
-**Prompt:**
+## Prompt 1: Planificación
 
 ```
-[Pegá acá el prompt exacto que escribiste]
+Soy estudiante de desarrollo frontend y tengo que construir una aplicación web
+estática que genere paletas de colores aleatorias (6, 8 o 9 colores) con un solo
+botón. Usaré HTML, CSS y JavaScript. Proponeme una estructura de
+carpetas y una lista de pasos para construirla.
 ```
 
-**Resultado:** [Qué te devolvió y qué te sirvió]
+!Captura del prompt 1(capturas/Prompt-1.png)
 
-![Captura del prompt 1](capturas/prompt1.png)
 
-**Qué ajusté:** [Qué cambiaste o corregiste a mano y por qué]
-
-## Prompt 2: [objetivo]
-
-**Prompt:**
+## Prompt 2: Javascript
 
 ```
-[...]
+Escribime una función en JavaScript que genere N colores aleatorios en HSL y
+los convierta a HEX. Los colores no deben salir ni muy apagados ni casi
+blancos o negros. Explicame la conversión paso por paso.
 ```
 
-**Resultado:** [...]
+!Captura del prompt 2(capturas/Prompt-2.png)
 
-![Captura del prompt 2](capturas/prompt2.png)
+## Prompt 3: DOM
 
-## Reflexión
+```
+Escribime el código que cree una tarjeta por cada color usando
+document.createElement, la agregue a una lista y reemplace la paleta anterior.
+Después explicame qué hace cada método del DOM que usaste.
+```
 
-- Qué aprendí del proceso.
-- Qué haría distinto al escribir los prompts.
+!Captura del prompt 3(capturas/Prompt-3.png)
+
+## Prompt 4: Accesibilidad
+
+```
+Revisá este HTML y CSS y decime qué puntos de accesibilidad faltan: labels,
+contraste, foco, lectores de pantalla. Para cada problema, mostrame cómo
+corregirlo.
+```
+
+!Captura del prompt 4(capturas/Prompt-4.png)
+
+## Prompt 5: Documentacion
+
+```
+Armame un README para este proyecto con: descripción, funcionalidades,
+tecnologías, estructura de carpetas, cómo ejecutarlo, cómo desplegarlo y
+decisiones técnicas. Dejá espacios donde yo deba completar con mis datos.
+```
+
+!Captura del prompt 5(capturas/Prompt-5.png)
+
