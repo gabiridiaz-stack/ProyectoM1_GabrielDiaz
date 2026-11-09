@@ -11,7 +11,7 @@ botón. Usaré HTML, CSS y JavaScript. Proponeme una estructura de
 carpetas y una lista de pasos para construirla.
 ```
 
-![Captura del prompt 1](capturas/Prompt-1.png)
+![Captura del prompt 1](Documentacion/capturas/Prompt-1.png)
 
 
 ## Prompt 2: Javascript
@@ -22,7 +22,7 @@ los convierta a HEX. Los colores no deben salir ni muy apagados ni casi
 blancos o negros. Explicame la conversión paso por paso.
 ```
 
-![Captura del prompt 2](capturas/Prompt-2.png)
+![Captura del prompt 2](Documentacion/capturas/Prompt-2.png)
 
 ## Prompt 3: DOM
 
@@ -32,7 +32,7 @@ document.createElement, la agregue a una lista y reemplace la paleta anterior.
 Después explicame qué hace cada método del DOM que usaste.
 ```
 
-![Captura del prompt 3](capturas/Prompt-3.png)
+![Captura del prompt 3](Documentacion/capturas/Prompt-3.png)
 
 ## Prompt 4: Accesibilidad
 
@@ -42,7 +42,7 @@ contraste, foco, lectores de pantalla. Para cada problema, mostrame cómo
 corregirlo.
 ```
 
-![Captura del prompt 4](capturas/Prompt-4.png)
+![Captura del prompt 4](Documentacion/capturas/Prompt-4.png)
 
 ## Prompt 5: Documentacion
 
@@ -52,5 +52,5 @@ tecnologías, estructura de carpetas, cómo ejecutarlo, cómo desplegarlo y
 decisiones técnicas.
 ```
 
-![Captura del prompt 5](capturas/Prompt-5.png)
+![Captura del prompt 5](Documentacion/capturas/Prompt-5.png)
 
