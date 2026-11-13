@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Generador de paletas de colores aleatorias de Colorace.">
+  <meta name="description" content="Colorace: generador de paletas de colores aleatorias.">
   <title>Colorace | Generador de paletas</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
@@ -24,13 +24,21 @@
           <label class="opcion"><input type="radio" name="tamano" value="8"> 8 colores</label>
           <label class="opcion"><input type="radio" name="tamano" value="9"> 9 colores</label>
         </fieldset>
+        <fieldset class="grupo">
+          <legend>Formato del color</legend>
+          <label class="opcion"><input type="radio" name="formato" value="hex" checked> HEX</label>
+          <label class="opcion"><input type="radio" name="formato" value="hsl"> HSL</label>
+        </fieldset>
         <button type="submit" class="boton">Generar paleta</button>
       </form>
+      <div class="acciones">
+        <button type="button" class="boton-secundario" id="exportar">Exportar paleta</button>
+      </div>
     </section>
 
     <section aria-labelledby="t-paleta">
       <h2 id="t-paleta" class="titulo-seccion">Tu paleta</h2>
-      <p class="ayuda">Hacé clic en un color para copiar su código HEX.</p>
+      <p class="ayuda">Hacé clic en un color para copiar su código. Con "Bloquear" lo conservás al generar otra paleta.</p>
       <ul id="paleta" class="paleta"></ul>
     </section>
 
